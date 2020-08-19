@@ -1,2 +1,2 @@
-# VueJs3_Tutorial_Project
+# Vue.js 3 - Tutorial Project
 A tutorial project I built to learn VueJS 3
