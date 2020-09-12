@@ -15,11 +15,10 @@
         <div class="cart">
             <p>Cart({{ cart.length }})</p>
         </div>
-        <product-display :premium="premium" @add-to-cart="updateCart"></product-display>
+        <product-display :premium="premium" @add-to-cart="updateCart" @remove-from-cart="removeFromCart"></product-display>
     </div>
 
     <script src="./main.js"></script>
-
     <script src="./components/ProductDisplay.js"></script>
     <script src="./components/ReviewForm.js"></script>
     <script src="./components/ReviewList.js"></script>
